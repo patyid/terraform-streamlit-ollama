@@ -1,0 +1,10 @@
+app_git_repo = "https://github.com/patyid/chatbot-project.git"
+region        = "us-east-1"
+instance_type = "t3.large"
+#allowed_cidr  = "SEU_IP_PUBLICO/32"       # ex: "203.0.113.10/32"
+#app_git_repo   = "https://github.com/SEU_USUARIO/SEU_REPO.git"
+app_git_branch = "main"
+app_dir_name   = "app"
+
+streamlit_entry = "chat_stream.py"
+ollama_model    = "llama3.2:3b"
